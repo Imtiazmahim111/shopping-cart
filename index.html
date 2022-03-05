@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div id="header">Shopping Cart</div>
+    <hr id="header-hr">
+    <main>
+        <div id="product-containers">
+            <div id="product-container-1">
+                <div id="product-images-and-name">
+                    <img src="images/images-1.jpg" alt="image-1" width="200px" id="image">
+                    <h2>Smasung Y5</h2>
+                </div>
+                <div id="product-price-container">
+                    <div>
+                    <button id="minus-the-value" title="Decrease The Value of Product">-</button>
+                    <input type="number" id="product-value" value="1">
+                    <button id="plus-the-value" title="Increase The Value of Product">+</button>
+                    </div>
+                    <p id="product-price">$<span id="product-price-1-span">350</span></p>
+                </div>
+            </div><hr id="header-hr">
+            <div id="product-container-2">
+                <div id="product-images-and-name-2">
+                    <img src="images/images-2.jpg" alt="image-1" width="200px" id="image">
+                    <h2>Black Coffee</h2>
+                </div>
+                <div id="product-price-container-2">
+                    <div>
+                    <button id="minus-the-value-2" title="Decrease The Value of Product">-</button>
+                    <input type="number" id="product-value-2" value="1">
+                    <button id="plus-the-value-2" title="Increase The Value of Product">+</button>
+                    </div>
+                    <p id="product-price-2">$20</p>
+                </div>
+            </div>
+        </div>
+        <div id="total-container">
+            <div id="sub-total">
+                <div>Subtotal:</div>
+                <div>$370</div>
+            </div>
+            <div id="tax-total">
+                <div>tax:</div>
+                <div>$0</div>
+            </div><hr id="header-hr">
+            <div id="total">
+                <div>Total:</div>
+                <div>$370</div>
+            </div>
+           <button id="checkout-botton">Checkout</button>
+        </div>
+    </main>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
